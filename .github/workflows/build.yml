@@ -111,5 +111,5 @@ jobs:
       uses: actions/upload-artifact@main
       with:
         name: asesprite-${{ matrix.os }}-${{ matrix.ui }}-${{ matrix.scripting }}-${{ matrix.build_type }}.zip
-        path: build/bin
+        path: build
         if-no-files-found: warn
